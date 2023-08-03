@@ -1,0 +1,24 @@
+Chunk miner:
+
+How chunk miner world work:
+Have ~ 2 functions, the first function is standard chunk mining, but when it detects
+a full inventory it'll execute the second function which sends it to the surface and makes
+it deposite all of its items into a double chest, after it deposits its items it'll
+start a function which sends it down a ~200 times and then positions the turtle
+at the starting point of function 1. This loops
+
+
+
+
+Remote turtle(+ EXPANDABILITY WITH ANNOYING SCRIPTING):
+
+How it works:
+
+A bunch of turtle functions that get triggered when it receives specific words
+broadcasted over rednet so if it hears "GPS" it'll send back its exact
+cords and if it hears "STRIP MINE" it'll begin optimally strip mining
+
+turtle should have ~32 - ~64 chests to perform various advanced functions
+
+I'd be able to write new functions for it by programming scripts which broadcast
+a bunch of basic keywards to the turtle(Forward up down left right place break)

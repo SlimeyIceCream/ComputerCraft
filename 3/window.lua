@@ -1,0 +1,5 @@
+local my_window = window.create(term.current(), 1, 1, 50, 16)
+my_window.setBackgroundColour(colours.grey)
+my_window.setTextColour(colours.white)
+my_window.clear()
+my_window.write()
